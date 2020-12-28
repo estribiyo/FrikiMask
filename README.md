@@ -40,6 +40,7 @@ Commands:
 
 ## Access to Eeprom
 
+
 	1 mask contain:
 	5 mouths
 		1 mouth contain:
@@ -50,6 +51,7 @@ Commands:
 	3bytes for color (RGB)
 
 Complete mask ocupes 45bytes
+
 
 	mask 0 == position 0  --> first mouth
 			  position 8  --> second mouth
@@ -66,10 +68,11 @@ Complete mask ocupes 45bytes
 	.
 	.
 	mask 9 == position 405
+```
 
 ## References
 
-https://github.com/chrissicool/zevoicemask
-https://github.com/danijerez/voicemask
-https://www.kickstarter.com/projects/jabbermask/jabbermask
-https://www.instructables.com/Arduino-Dual-Function-Button-Long-PressShort-Press/
+- https://github.com/chrissicool/zevoicemask
+- https://github.com/danijerez/voicemask
+- https://www.kickstarter.com/projects/jabbermask/jabbermask
+- https://www.instructables.com/Arduino-Dual-Function-Button-Long-PressShort-Press/
