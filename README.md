@@ -12,20 +12,19 @@
 
 ## Intructions set of serial port
 Commands:
-	r: "r123"   = Set Red 123       [0-255] Don't write in eeprom
+
+	r: "r123"   = Set Red 123       [0-255] Don't write in eeprom	
 	g: "g123"   = Set Green 123     [0-255] Don't write in eeprom
+	
 	b: "b123"   = Set Blue 123      [0-255] Don't write in eeprom
 
 	i: "i10"    = Set brightness 10 [0-255] Don't write in eeprom
-
 
 	d: "d1"     = Display smile of the current mask [0-4] mantained 2 seconds
 
 	p: "p"      = Play 5 times
 
-
 	c: "c"      = view info current mask
-
 
 	f: "f0"		= Load mask from flash  i[0-99]
 
