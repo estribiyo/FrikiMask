@@ -12,24 +12,35 @@
 
 ## Intructions set of serial port
 Commands:
-r: "r123"   = Set Red 123       [0-255] Don't write in eeprom
-g: "g123"   = Set Green 123     [0-255] Don't write in eeprom
-b: "b123"   = Set Blue 123      [0-255] Don't write in eeprom
-i: "i10"    = Set brightness 10 [0-255] Don't write in eeprom
+	r: "r123"   = Set Red 123       [0-255] Don't write in eeprom
+	g: "g123"   = Set Green 123     [0-255] Don't write in eeprom
+	b: "b123"   = Set Blue 123      [0-255] Don't write in eeprom
 
-d: "d1"     = Display smile of the current mask [0-4] mantained 2 seconds
-p: "p"      = Play 5 times
+	i: "i10"    = Set brightness 10 [0-255] Don't write in eeprom
 
-c: "c"      = view info current mask
 
-f: "f0"		= Load mask from flash  i[0-99]
-e: "e0"		= Load mask from EEprom i[0-9]
-s: "s2"		= Save mask to eeprom i[0-9]
-k: "k0" 	= Reset eeprom mask from flash to eeprom [0-4]
-w: "w"		= Reset all eeprom
+	d: "d1"     = Display smile of the current mask [0-4] mantained 2 seconds
 
-D: "D"		= Dinamic smille
-S: "S"		= Static smille
+	p: "p"      = Play 5 times
+
+
+	c: "c"      = view info current mask
+
+
+	f: "f0"		= Load mask from flash  i[0-99]
+
+	e: "e0"		= Load mask from EEprom i[0-9]
+
+	s: "s2"		= Save mask to eeprom i[0-9]
+
+	k: "k0" 	= Reset eeprom mask from flash to eeprom [0-4]
+
+	w: "w"		= Reset all eeprom
+
+
+	D: "D"		= Dinamic smille
+
+	S: "S"		= Static smille
 
 ## Instructions set of button control
 1.- Long press
