@@ -68,7 +68,6 @@ Complete mask ocupes 45bytes
 	.
 	.
 	mask 9 == position 405
-```
 
 ## References
 
